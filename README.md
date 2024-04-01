@@ -34,3 +34,7 @@ There are already many existing web-based multitrack players, but none tick all 
 - [Mixjs](https://github.com/kevincennis/Mix.js) needs a build step with precompiled set of resources 
 - [Multitrack Player](https://dhulme.uk/multitrack-player/#/) by David Hulme requires local files
 - [Waveform Playlist](https://naomiaro.github.io/waveform-playlist/) requires buffered sources
+
+# Notes
+
+- The [HTMLMediaElement: mediaGroup property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/mediaGroup), which facilitated synchronous playback, has been [deprecated and removed with the Media Controller feature](https://github.com/w3c/html/issues/246).
